@@ -1,0 +1,220 @@
+{
+  "name": "SLVI March 2026 Browser Merge",
+  "version": "1.0.0",
+  "expectedFiles": [
+    "orignal(2).xlsx",
+    "01  SLVI-ALDAR OSH Monthly Statistics report March _2026(1).xlsx",
+    "Parson SLVI-ALDAR OSH Monthly Statistics report March _2026(1).xlsx",
+    "Innovo OSH Monthly Statistics report March _2026(1).xlsx",
+    "TAJV OSH Monthly Statistics Report - March  2026(1).xlsx",
+    "Basatin ALDAR OSH Monthly Statistisc -BSC107-March(1).xlsx"
+  ],
+  "notes": "This browser build is tuned to the exact March 2026 workbook pack uploaded in this chat. It validates the pack and repairs the original master workbook into the corrected final workbook while preserving the original template design.",
+  "patches": [
+    {
+      "sheet": "OSH Description Summary",
+      "cell": "D108",
+      "formula": "SUM(D77:D107)"
+    },
+    {
+      "sheet": " OSH Statistics",
+      "cell": "G9",
+      "value": 14067.5649647835
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "E12",
+      "value": 26.27272727272727
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "G12",
+      "value": 24.26315789473684
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "F22",
+      "value": 43.95833333333334
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "R22",
+      "value": 41.83333333333334
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "E37",
+      "value": 299.8461538461539
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "R37",
+      "value": 202.0416666666667
+    },
+    {
+      "sheet": "Manpower & Man-Hours Breakdown ",
+      "cell": "R43",
+      "value": 13859.85
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q15",
+      "formula": "O15*P15"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q16",
+      "formula": "O16*P16"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q17",
+      "formula": "O17*P17"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q18",
+      "formula": "O18*P18"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q19",
+      "formula": "O19*P19"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q20",
+      "formula": "O20*P20"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q21",
+      "formula": "O21*P21"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q22",
+      "formula": "O22*P22"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q25",
+      "formula": "O25*P25"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q26",
+      "formula": "O26*P26"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q27",
+      "formula": "O27*P27"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q28",
+      "formula": "O28*P28"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q29",
+      "formula": "O29*P29"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q30",
+      "formula": "O30*P30"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q31",
+      "formula": "O31*P31"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q32",
+      "formula": "O32*P32"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q33",
+      "formula": "O33*P33"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q34",
+      "formula": "O34*P34"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q35",
+      "formula": "O35*P35"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q36",
+      "formula": "O36*P36"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q37",
+      "formula": "O37*P37"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q38",
+      "formula": "O38*P38"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q39",
+      "formula": "O39*P39"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q40",
+      "formula": "O40*P40"
+    },
+    {
+      "sheet": "Daily Breakdown Details ",
+      "cell": "Q45",
+      "formula": "O45*P45"
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "F90",
+      "value": 13.8
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "F92",
+      "value": 14.4
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "F93",
+      "value": 105.9
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "C99",
+      "formula": "SUM(C82:C98)"
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "D99",
+      "formula": "SUM(D82:D98)"
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "E99",
+      "formula": "SUM(E82:E98)"
+    },
+    {
+      "sheet": "Training Breakdown",
+      "cell": "F99",
+      "formula": "SUM(F82:F98)"
+    }
+  ]
+}
